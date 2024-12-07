@@ -10,7 +10,7 @@ import {
 const detail = {
   code: "Primitive/Box",
   propsConfig: {
-    name: UnitProp.Float3([1, 1, 1]),
+    size: UnitProp.Float3([1, 1, 1]),
   },
   children: "multi",
 } as const satisfies DetailBase;

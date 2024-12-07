@@ -24653,7 +24653,7 @@
                                             },
                                             "Content": {
                                               "ID": "125b77f8-d5f9-4a40-af88-a25cdf4c020b",
-                                              "Data": "...Connectiong"
+                                              "Data": "...Connecting"
                                             },
                                             "ParseRichText": {
                                               "ID": "efe6bc53-a4bf-4a90-bd62-14fa8895ff2f",
@@ -24817,7 +24817,7 @@
                                                   },
                                                   "Value": {
                                                     "ID": "8722b6e9-afe9-4ef4-8589-58b31b7d51d5",
-                                                    "Data": "...Connectiong"
+                                                    "Data": "...Connecting"
                                                   }
                                                 },
                                                 {
@@ -24828,7 +24828,7 @@
                                                   },
                                                   "Value": {
                                                     "ID": "2800cfda-e7c8-40ca-a5b1-a5b1adb0f637",
-                                                    "Data": "..Connectiong."
+                                                    "Data": "..Connecting."
                                                   }
                                                 },
                                                 {
@@ -24839,7 +24839,7 @@
                                                   },
                                                   "Value": {
                                                     "ID": "65981449-d578-4375-9ba2-a33d474e8c8b",
-                                                    "Data": ".Connectiong.."
+                                                    "Data": ".Connecting.."
                                                   }
                                                 },
                                                 {
@@ -24850,7 +24850,7 @@
                                                   },
                                                   "Value": {
                                                     "ID": "c89f100a-e611-4781-8687-75f804b4257e",
-                                                    "Data": "Connectiong..."
+                                                    "Data": "Connecting..."
                                                   }
                                                 }
                                               ]

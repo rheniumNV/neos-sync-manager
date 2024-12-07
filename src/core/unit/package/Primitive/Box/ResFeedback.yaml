@@ -259,7 +259,7 @@ Children:
                   ID: "?"
                   Data:
                     - ID: "?"
-                      Data: ID:Assets:10:ID:0
+                      Data: ID:Assets:7:ID:1
                 MaterialPropertyBlocks:
                   ID: "?"
                   Data: []
@@ -470,7 +470,7 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.name
+                  Data: Props.size
                 TargetField:
                   ID: "?"
                   Data: ID:Box:Components:2:Size:0

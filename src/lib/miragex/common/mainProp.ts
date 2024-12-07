@@ -45,6 +45,12 @@ export type Rect = Common & {
   main: [number, number, number, number];
   mirror: [number, number, number, number];
 };
+export type BoundingBox = Common & {
+  type: "Elements.Core.BoundingBox";
+  main: [number, number, number, number, number, number];
+  mirror: [number, number, number, number, number, number];
+};
+export type Vertex = Common
 
 export type String = Common & {
   type: "String";
@@ -75,17 +81,32 @@ export type Function<A extends unknown[]> = Common & {
 export type Color = Common & {
   type: "Color";
   main:
-    | [number, number, number, number]
-    | [number, number, number, number, "sRGB" | "sRGBAlpha" | "Linear"];
+  | [number, number, number, number]
+  | [number, number, number, number, "sRGB" | "sRGBAlpha" | "Linear"];
   mirror:
-    | [number, number, number, number]
-    | [number, number, number, number, "sRGB" | "sRGBAlpha" | "Linear"];
+  | [number, number, number, number]
+  | [number, number, number, number, "sRGB" | "sRGBAlpha" | "Linear"];
 };
 
 export type Int = Common & {
   type: "Int";
   main: number;
   mirror: number;
+};
+export type Int2 = Common & {
+  type: "Int2";
+  main: [number, number];
+  mirror: [number, number];
+};
+export type Int3 = Common & {
+  type: "Int3";
+  main: [number, number, number];
+  mirror: [number, number, number];
+};
+export type Int4 = Common & {
+  type: "Int4";
+  main: [number, number, number, number];
+  mirror: [number, number, number, number];
 };
 
 export type Long = Common & {
@@ -102,11 +123,15 @@ export type Base =
   | Float4
   | FloatQ
   | Rect
+  | BoundingBox
   | String
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   | Function<any[]>
   | Color
   | Int
+  | Int2
+  | Int3
+  | Int4
   | Long
   | Uri
   | Enum<string>;

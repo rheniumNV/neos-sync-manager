@@ -1,0 +1,762 @@
+Name:
+  ID: "?"
+  Data: Primitive/Quad
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-ID: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: null
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: 0
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: null
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 1
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+    ParentReference: ""
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 0
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: null
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: Quad
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:Quad:0
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 2
+              Data:
+                ID: ID:Quad:Components:2:0
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                HighPriorityIntegration:
+                  ID: ID:Quad:Components:2:HighPriorityIntegration:0
+                  Data: false
+                OverrideBoundingBox:
+                  ID: ID:Quad:Components:2:OverrideBoundingBox:0
+                  Data: false
+                OverridenBoundingBox:
+                  ID: ID:Quad:Components:2:OverridenBoundingBox:0
+                  Data:
+                    Min:
+                      - 266.6666666666667
+                      - 0
+                      - 0
+                    Max:
+                      - 0
+                      - 0
+                      - 0
+                Profile:
+                  ID: "?"
+                  Data: Linear
+                Rotation:
+                  ID: ID:Quad:Components:2:Rotation:0
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                    - 333.3333333333333
+                Size:
+                  ID: ID:Quad:Components:2:Size:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                UVOffset:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                UVScale:
+                  ID: "?"
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                ScaleUVWithSize:
+                  ID: "?"
+                  Data: false
+                DualSided:
+                  ID: ID:Quad:Components:2:DualSided:0
+                  Data: false
+                UseVertexColors:
+                  ID: ID:Quad:Components:2:UseVertexColors:0
+                  Data: true
+                UpperLeftColor:
+                  ID: ID:Quad:Components:2:UpperLeftColor:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGB
+                LowerLeftColor:
+                  ID: ID:Quad:Components:2:LowerLeftColor:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGB
+                LowerRightColor:
+                  ID: ID:Quad:Components:2:LowerRightColor:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGB
+                UpperRightColor:
+                  ID: ID:Quad:Components:2:UpperRightColor:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGB
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Mesh:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:0
+                Materials:
+                  ID: "?"
+                  Data:
+                    - ID: "?"
+                      Data: ID:Assets:12:ID:5
+                MaterialPropertyBlocks:
+                  ID: "?"
+                  Data: []
+                ShadowCastMode:
+                  ID: "?"
+                  Data: On
+                MotionVectorMode:
+                  ID: "?"
+                  Data: Object
+                SortingOrder:
+                  ID: "?"
+                  Data: 0
+            - Type: 4
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 333333333.3333333
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Offset:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                    - 0
+                Type:
+                  ID: "?"
+                  Data: NoCollision
+                Mass:
+                  ID: "?"
+                  Data: 333.3333333333333
+                CharacterCollider:
+                  ID: "?"
+                  Data: false
+                IgnoreRaycasts:
+                  ID: "?"
+                  Data: false
+                Mesh:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:0
+                Sidedness:
+                  ID: "?"
+                  Data: Front
+                ActualSpeculativeMargin:
+                  ID: "?"
+                  Data: null
+            - Type: 5
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                _worker:
+                  ID: "?"
+                  Data: ID:Quad:0
+                _gizmo:
+                  ID: "?"
+                  Data: null
+                _type:
+                  ID: "?"
+                  Data: 89000
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:Quad:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:Quad:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:DV/Props:0
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.name
+                TargetField:
+                  ID: "?"
+                  Data: "?"
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.highPriorityIntegration
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:HighPriorityIntegration:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.overrideBoundingBox
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:OverrideBoundingBox:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 8
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.overridenBoundingBox
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:OverridenBoundingBox:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 9
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.rotation
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:Rotation:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.size
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:Size:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.dualSided
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:DualSided:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.useVertexColors
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:UseVertexColors:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.upperLeftColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:UpperLeftColor:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.upperRightColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:UpperRightColor:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.LowerLeftColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:LowerLeftColor:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.LowerRightColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:Quad:Components:2:LowerRightColor:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 5
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                _worker:
+                  ID: "?"
+                  Data: ID:DV/Props:0
+                _gizmo:
+                  ID: "?"
+                  Data: null
+                _type:
+                  ID: "?"
+                  Data: 89000
+        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""

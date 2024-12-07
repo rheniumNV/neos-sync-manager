@@ -19158,7 +19158,7 @@ Children:
                                           Data: ID:Assets:159:ID:3
                                         Content:
                                           ID: ID:Text:Components:133:Content:5
-                                          Data: ...Connectiong
+                                          Data: ...Connecting
                                         ParseRichText:
                                           ID: "?"
                                           Data: true
@@ -19298,28 +19298,28 @@ Children:
                                                 Data: 0
                                               Value:
                                                 ID: "?"
-                                                Data: ...Connectiong
+                                                Data: ...Connecting
                                             - ID: "?"
                                               Position:
                                                 ID: "?"
                                                 Data: 111
                                               Value:
                                                 ID: "?"
-                                                Data: ..Connectiong.
+                                                Data: ..Connecting.
                                             - ID: "?"
                                               Position:
                                                 ID: "?"
                                                 Data: 222.33333333333334
                                               Value:
                                                 ID: "?"
-                                                Data: .Connectiong..
+                                                Data: .Connecting..
                                             - ID: "?"
                                               Position:
                                                 ID: "?"
                                                 Data: 333.3333333333333
                                               Value:
                                                 ID: "?"
-                                                Data: Connectiong...
+                                                Data: Connecting...
                                     - Type: 138
                                       Data:
                                         ID: "?"

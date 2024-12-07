@@ -1,0 +1,807 @@
+Name:
+  ID: "?"
+  Data: Hooks/UserSpawned
+Active:
+  ID: "?"
+  Data: true
+ID: "?"
+Persistent-ID: "?"
+Position:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+Rotation:
+  ID: "?"
+  Data:
+    - 0
+    - 0
+    - 0
+    - 1
+Scale:
+  ID: "?"
+  Data:
+    - 1
+    - 1
+    - 1
+Tag:
+  ID: "?"
+  Data: null
+OrderOffset:
+  ID: "?"
+  Data: 0
+Components:
+  ID: "?"
+  Data:
+    - Type: 0
+      Data:
+        ID: "?"
+        persistent-ID: "?"
+        UpdateOrder:
+          ID: "?"
+          Data: 0
+        Enabled:
+          ID: "?"
+          Data: true
+        SpaceName:
+          ID: "?"
+          Data: null
+        OnlyDirectBinding:
+          ID: "?"
+          Data: false
+Children:
+  - Name:
+      ID: "?"
+      Data: DV
+    Active:
+      ID: "?"
+      Data: true
+    ID: "?"
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 1
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            VariableName:
+              ID: "?"
+              Data: Static.Ref
+            Reference:
+              ID: "?"
+              Data: ID:Ref:0
+            OverrideOnLink:
+              ID: "?"
+              Data: false
+    Children: []
+    ParentReference: ""
+  - Name:
+      ID: "?"
+      Data: Ref
+    Active:
+      ID: "?"
+      Data: true
+    ID: ID:Ref:0
+    Persistent-ID: "?"
+    Position:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+    Rotation:
+      ID: "?"
+      Data:
+        - 0
+        - 0
+        - 0
+        - 111111
+    Scale:
+      ID: "?"
+      Data:
+        - 111111
+        - 111111
+        - 111111
+    Tag:
+      ID: "?"
+      Data: null
+    OrderOffset:
+      ID: "?"
+      Data: 0
+    Components:
+      ID: "?"
+      Data:
+        - Type: 0
+          Data:
+            ID: "?"
+            persistent-ID: "?"
+            UpdateOrder:
+              ID: "?"
+              Data: 0
+            Enabled:
+              ID: "?"
+              Data: true
+            SpaceName:
+              ID: "?"
+              Data: null
+            OnlyDirectBinding:
+              ID: "?"
+              Data: false
+    Children:
+      - Name:
+          ID: "?"
+          Data: Main
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:Main:0
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Value:
+                  ID: ID:Main:Components:2:Value:0
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Reference:
+                  ID: ID:Main:Components:3:Reference:0
+                  Data: "?"
+            - Type: 4
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: AppRoot/Static.System.Func.EmitInteractionEvent
+                Target:
+                  ID: "?"
+                  Data: ID:Main:Components:3:Reference:0
+                DefaultTarget:
+                  ID: "?"
+                  Data: null
+        Children:
+          - Name:
+              ID: "?"
+              Data: UserSpawn
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - -17889
+                - -16777.666666666668
+                - -444.3333333333333
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 5
+                  Data:
+                    ID: ID:UserSpawn:Components:5:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    OnlyHost:
+                      ID: "?"
+                      Data: ID:ValueSource`1:Components:7:0
+                    OnSpawn:
+                      ID: "?"
+                      Data: ID:DynamicImpulseTriggerWithObject`1:Components:9:0
+                    SpawnedUser:
+                      ID: "?"
+                      Data: null
+                - Type: 6
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Node:
+                      ID: "?"
+                      Data: ID:UserSpawn:Components:5:0
+                    Path:
+                      ID: "?"
+                      Data: []
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: ValueSource`1
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - -40555.666666666664
+                - -15111
+                - -889
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 7
+                  Data:
+                    ID: ID:ValueSource`1:Components:7:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Source:
+                      ID: "?"
+                      Data: ID:ValueSource`1:Components:8:0
+                - Type: 8
+                  Data:
+                    ID: ID:ValueSource`1:Components:8:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Reference:
+                      ID: "?"
+                      Data: ID:Main:Components:2:Value:0
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: DynamicImpulseTriggerWithObject`1
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 1889
+                - -21666.666666666668
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 9
+                  Data:
+                    ID: ID:DynamicImpulseTriggerWithObject`1:Components:9:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Next:
+                      ID: "?"
+                      Data: null
+                    Tag:
+                      ID: "?"
+                      Data: ID:ValueObjectInput`1:Components:10:0
+                    TargetHierarchy:
+                      ID: "?"
+                      Data: ID:ReferenceSource`1:Components:11:0
+                    ExcludeDisabled:
+                      ID: "?"
+                      Data: null
+                    TriggeredCount:
+                      ID: "?"
+                      Data: null
+                    Value:
+                      ID: "?"
+                      Data: ID:ValueObjectInput`1:Components:10:1
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: ValueObjectInput`1
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - -28777.666666666668
+                - -29666.666666666668
+                - -666.6666666666666
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 10
+                  Data:
+                    ID: ID:ValueObjectInput`1:Components:10:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Value:
+                      ID: "?"
+                      Data: Func.EmitInteractionEvent.Trigger
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: ValueObjectInput`1
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - -28889
+                - -50889
+                - -666.6666666666666
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 10
+                  Data:
+                    ID: ID:ValueObjectInput`1:Components:10:1
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Value:
+                      ID: ID:ValueObjectInput`1:Components:10:Value:1
+                      Data: null
+            Children: []
+            ParentReference: ""
+          - Name:
+              ID: "?"
+              Data: ReferenceSource`1
+            Active:
+              ID: "?"
+              Data: true
+            ID: "?"
+            Persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - -25444.333333333332
+                - -39777.666666666664
+                - -555.6666666666666
+            Rotation:
+              ID: "?"
+              Data:
+                - 111
+                - -1333.3333333333333
+                - -111
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: null
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 11
+                  Data:
+                    ID: ID:ReferenceSource`1:Components:11:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Source:
+                      ID: "?"
+                      Data: ID:ReferenceSource`1:Components:12:0
+                - Type: 12
+                  Data:
+                    ID: ID:ReferenceSource`1:Components:12:0
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    Reference:
+                      ID: "?"
+                      Data: ID:Main:Components:3:Reference:0
+            Children: []
+            ParentReference: ""
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Static
+        Active:
+          ID: "?"
+          Data: true
+        ID: "?"
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Root
+                Reference:
+                  ID: "?"
+                  Data: ID:Ref:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.Main
+                Reference:
+                  ID: "?"
+                  Data: ID:Main:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 1
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Static.ChildrenParent
+                Reference:
+                  ID: "?"
+                  Data: ID:Main:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: DV/Props
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:DV/Props:0
+        Persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: null
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 13
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.onlyHost
+                TargetField:
+                  ID: "?"
+                  Data: ID:Main:Components:2:Value:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 14
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.callback
+                TargetField:
+                  ID: "?"
+                  Data: ID:ValueObjectInput`1:Components:10:Value:1
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 15
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                _worker:
+                  ID: "?"
+                  Data: ID:DV/Props:0
+                _gizmo:
+                  ID: "?"
+                  Data: null
+                _type:
+                  ID: "?"
+                  Data: 113666.66666666667
+        Children: []
+        ParentReference: ""
+    ParentReference: ""
+ParentReference: ""

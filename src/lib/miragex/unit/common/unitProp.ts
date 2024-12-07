@@ -188,8 +188,8 @@ export const Color = (
   defaultValue:
     | [number, number, number, number]
     | [number, number, number, number, "sRGB" | "sRGBAlpha" | "Linear"] = [
-    1, 1, 1, 1,
-  ],
+      1, 1, 1, 1,
+    ],
   { dvMode }: Option = { dvMode: "Field" },
 ): MainProp.Color => ({
   type: "Color",
@@ -259,6 +259,36 @@ export const Int = (
   resDVType: "int",
   dvMode,
 });
+export const Int2 = (
+  defaultValue: [number, number] = [0, 0],
+  { dvMode }: Option = { dvMode: "Field" },
+): MainProp.Int2 => ({
+  type: "Int2",
+  main: defaultValue,
+  mirror: defaultValue,
+  resDVType: "int2",
+  dvMode,
+});
+export const Int3 = (
+  defaultValue: [number, number, number] = [0, 0, 0],
+  { dvMode }: Option = { dvMode: "Field" },
+): MainProp.Int3 => ({
+  type: "Int3",
+  main: defaultValue,
+  mirror: defaultValue,
+  resDVType: "int3",
+  dvMode,
+});
+export const Int4 = (
+  defaultValue: [number, number, number, number] = [0, 0, 0, 0],
+  { dvMode }: Option = { dvMode: "Field" },
+): MainProp.Int4 => ({
+  type: "Int4",
+  main: defaultValue,
+  mirror: defaultValue,
+  resDVType: "int4",
+  dvMode,
+});
 export const Long = (
   defaultValue: number = 0,
   { dvMode }: Option = { dvMode: "Field" },
@@ -267,6 +297,17 @@ export const Long = (
   main: defaultValue,
   mirror: defaultValue,
   resDVType: "long",
+  dvMode,
+});
+
+export const BoundingBox = (
+  defaultValue: [number, number, number, number, number, number] = [0, 0, 0, 0, 0, 0],
+  { dvMode }: Option = { dvMode: "Field" },
+): MainProp.BoundingBox => ({
+  type: "Elements.Core.BoundingBox",
+  main: defaultValue,
+  mirror: defaultValue,
+  resDVType: "[Elements.Core]Elements.Core.BoundingBox",
   dvMode,
 });
 
@@ -381,4 +422,18 @@ export const EnumSidedness = (
   dvMode,
   enumKeys: sidednessKey,
   enumType: "FrooxEngine.Sidedness",
+});
+
+const shadingKeys: ["Smooth", "FlatSegments", "FlatRings", "Flat"] = ["Smooth", "FlatSegments", "FlatRings", "Flat"];
+export const EnumShading = (
+  defaultValue: (typeof shadingKeys)[number] = "Smooth",
+  { dvMode }: Option = { dvMode: "Field" },
+): MainProp.Enum<(typeof shadingKeys)[number]> => ({
+  type: "Enum",
+  main: defaultValue,
+  mirror: shadingKeys.indexOf(defaultValue),
+  resDVType: "[Elements.Assets]Elements.Assets.UVSphereCapsule+Shading",
+  dvMode,
+  enumKeys: shadingKeys,
+  enumType: "Elements.Assets.UVSphereCapsule+Shading",
 });

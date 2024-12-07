@@ -209,7 +209,7 @@ Children:
                   Data: true
                 Font:
                   ID: ID:StyledText:Components:2:Font:0
-                  Data: ID:Assets:14:ID:0
+                  Data: ID:Assets:15:ID:0
                 Content:
                   ID: ID:StyledText:Components:2:Content:0
                   Data: ""
@@ -243,7 +243,7 @@ Children:
                   ID: "?"
                   Data:
                     - ID: ID:StyledText:Components:2:Materials.0.ID:0
-                      Data: ID:Assets:16:ID:0
+                      Data: ID:Assets:17:ID:0
                 LineHeight:
                   ID: ID:StyledText:Components:2:LineHeight:0
                   Data: 266.6666666666667
@@ -366,7 +366,7 @@ Children:
                   Data: ID:StyledText:Components:2:Materials.0.ID:0
                 DefaultTarget:
                   ID: "?"
-                  Data: ID:Assets:16:ID:0
+                  Data: ID:Assets:17:ID:0
             - Type: 6
               Data:
                 ID: "?"
@@ -385,7 +385,7 @@ Children:
                   Data: ID:StyledText:Components:2:Font:0
                 DefaultTarget:
                   ID: "?"
-                  Data: ID:Assets:14:ID:0
+                  Data: ID:Assets:15:ID:0
         Children: []
         ParentReference: ""
       - Name:
